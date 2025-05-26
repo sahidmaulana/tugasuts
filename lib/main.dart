@@ -485,7 +485,7 @@ class _CartScreenState extends State<CartScreen> {
                       ),
                     ),
                     child: const Text(
-                      'Lanjut ke Pembayaran',
+                      'Lanjut Ke Pembayaran',
                       style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -585,7 +585,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
               keyboardType: TextInputType.number,
               inputFormatters: [FilteringTextInputFormatter.digitsOnly],
               decoration: InputDecoration(
-                labelText: 'Jumlah Bayar',
+                labelText: 'Jumlah Yang Akan DiBayar',
                 prefixText: 'Rp ',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12),
